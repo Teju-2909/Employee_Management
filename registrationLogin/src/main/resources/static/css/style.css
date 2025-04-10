@@ -1,0 +1,60 @@
+@charset "ISO-8859-1";
+
+
+ body {
+    font-family: 'Arial', sans-serif;
+     background-image: url('/images/k.jpg');
+    background-size: cover;
+   
+   /*  background: linear-gradient(135deg, #6e8efb, #a777e3); */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+
+a {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    background-color: #0056b3;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 10px auto;
+    width: 80%;
+    transition: 0.3s;
+}
+
+a:hover {
+    background-color: #007BFF;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}
